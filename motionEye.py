@@ -11,7 +11,6 @@ def exp(url):
             print("allow:{0}".format(url))
         else:
             print("not found bug")
-            break
 
 if __name__ == '__main__':
     ip = sys.argv[1]
