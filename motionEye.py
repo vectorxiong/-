@@ -9,6 +9,8 @@ def exp(url):
         rus = requests.get(url, verify=False)
         if "error" not in rus.text:
             print("allow:{0}".format(url))
+        else:
+            print("not found bug")
             break
 
 if __name__ == '__main__':
